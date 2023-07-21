@@ -20,14 +20,11 @@ function toggleMode() {
     img.setAttribute('src', './assets/avatar-light.png');
     img.setAttribute(
       'alt',
-      'Foto de João Victor sorrindo, com filtro corado, usando óculos em uma fundo branco'
+      'Foto de Estefany sorrindo, em um fundo com uma paisagem'
     );
   } else {
     // Se tiver sem ligh mode, manter a imagem padrão
     img.setAttribute('src', './assets/avatar-dark.png');
-    img.setAttribute(
-      'alt',
-      'Foto de João Victor sorrindo, usando óculos em uma fundo branco'
-    );
+    img.setAttribute('alt', 'Foto de Estefany sorrindo, em um fundo borrado');
   }
 }
